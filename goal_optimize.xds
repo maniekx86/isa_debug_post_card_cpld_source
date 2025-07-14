@@ -1,0 +1,18 @@
+<DesignStrategy goal="Optimize as hell" strategy="Optimize" version="10.1">
+   <Description>      OPTIMIZE!!!   </Description>
+   <DeviceList devices="xc9500xl" />
+   <Properties>
+      <property name = "Synthesize - XST:Optimization Goal"
+               value = "Area" />
+      <property name = "Synthesize - XST:Optimization Effort"
+               value = "High" />
+      <property name = "Fit:Logic Optimization"
+               value = "Density" />
+      <property name = "Fit:Implementation Template"
+               value = "Optimize Density" />
+      <property name = "Fit:Exhaustive Fit Mode"
+               value = "true" />
+      <property name = "Synthesize - XST:Add I/O Buffers"
+               value = "true" />
+   </Properties>
+</DesignStrategy>
